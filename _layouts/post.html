@@ -25,7 +25,7 @@ layout: default
 <div>
 {{ content }}
 
-
+<!-- Old index, CSS is still  there 
 <div class="table-container">
   <table class="index">
     {% tablerow post in site.categories.[page.category-name] cols:3 %}
@@ -35,7 +35,8 @@ layout: default
     {% endtablerow %}
   </table>
 </div>
-
+-->
+  
 <div class="index-container">
   {% for post in site.categories.[page.category-name] %}
     {% if post.url %}
@@ -47,6 +48,6 @@ layout: default
 
 </div>  
   
-<!----- I'm using "category-name" [page.category-name] on each page/post to indicate the name of that page's category. Maybe there's a better solution, but I can't think of it right now --->
+<!-- I'm using "category-name" [page.category-name] on each page/post to indicate the name of that page's category. Maybe there's a better solution, but I can't think of it right now --->
 
 </div>
