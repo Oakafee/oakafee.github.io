@@ -38,10 +38,11 @@ layout: default
 </div>
 
 <div class="index-container">
-  {% fir post in site.categories.[page.category-name] %}
+  {% for post in site.categories.[page.category-name] %}
     {% if post.url %}
       <div class="index-item">
         <a href="{{ post.url }}">{{ post.title }}</a>
+        <p>test</p>
   </div>
         {% endif %}
   {% endfor %}
