@@ -136,9 +136,9 @@ div.index-container {
 }
 div.index-item {
 	display: inline-block;
-	margin: 10px;
+	margin: 5px;
     background-color: #4d4d4d;
-    padding: 5px;
+    padding: 10px;
 }
 div.index-item a:link {color: #c0c0c0; font-weight: normal;}
 div.index-item a:visited {color: #c0c0c0; font-weight: normal;}
