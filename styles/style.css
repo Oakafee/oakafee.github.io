@@ -128,6 +128,19 @@ td {
     border: 5px solid #F0DC82;
     padding: 8px;
 }
+
+div.index-container {
+    text-align: center;
+    width: 100%;
+    margin: 25px 0 25px 0;
+}
+div.index-item {
+	width: 30%;
+	display: inline-block;
+	margin: 10px;
+    background-color: #4d4d4d;
+}
+
 div.map-container {
      text-align: center;
      width: 100%;
