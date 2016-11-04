@@ -52,13 +52,14 @@ tags: land-use
 <p>DoDeed.</p>
 </div>
 
-<div class="table-container">
-  <table class="index">
-    {% tablerow post in site.categories.land-use cols:3 %}
-      {% if post.url %}
-          <a href="{{ post.url }}">{{ post.title }}</a>
-      {% endif %}
-    {% endtablerow %}
-  </table>
+
+<div class="index-container">
+  {% for post in site.categories.land-use %}
+    {% if post.url %}
+      <div class="index-item">
+        <a href="{{ post.url }}">{{ post.title }}</a>
+      </div>
+    {% endif %}
+  {% endfor %}
 </div>
 
