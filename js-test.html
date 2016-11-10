@@ -4,7 +4,7 @@ layout: post
 
 <p>I would like to see Mike's
 
-<select name="genres" id="genres">
+<select name="genres" id="genres" onchange="showAppropriateCategory()">
 	<option value="comedy">comedy</option>
 	<option value="serious">serious</option>
 	<option value="dance">dance</option>
@@ -16,3 +16,13 @@ videos </p>
 <div id="comedy-list"><p>Here are Mike's funny comedy videos</p></div>
 <div id="serious-list"><p>Here are the videos in which Mike communicates the incredible pathos in his soul</p>
 <div id="dance-list"><p>Mike's innate sense of rhythm has wowed multitudes</p></div>
+
+<p id="js-test"></p>
+
+<script>
+function showAppropriateCategory() {
+	var category = document.getElementById( "genres" ).selectedIndex;
+	document.getElementById("js-test").innerHTML = category;
+
+}
+</script>
