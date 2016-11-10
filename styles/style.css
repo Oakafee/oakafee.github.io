@@ -277,3 +277,12 @@ div.land p {
 	margin-top: 65px;
 	margin-left: 25px;
 }
+#comedy-list {
+	display: block;
+}
+#serious-list {
+	display: block;
+}
+#dance-list {
+	display: block;
+}
