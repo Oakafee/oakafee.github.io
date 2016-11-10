@@ -23,8 +23,9 @@ videos </p>
 function showAppropriateCategory() {
 
 	var e = document.getElementById("genres");
-	var genrechoice = e.options[e.selectedIndex].value;
-	generechoice = genrechoice + "-list";	
+	var genrechoice = e.options[e.selectedIndex].value + "-list";
 	alert ( genrechoice );
+	var videocategory = document.getElementById(genrechoice);
+	
 }
 </script>
