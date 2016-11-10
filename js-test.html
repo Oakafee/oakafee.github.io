@@ -5,10 +5,10 @@ layout: post
 <p>I would like to see Mike's
 
 <select name="genres" id="genres" onchange="showAppropriateCategory()">
+	<option value="all">entire ovure of</option>
 	<option value="comedy">comedy</option>
 	<option value="serious">serious</option>
 	<option value="dance">dance</option>
-	<option value="all">entire ovure of</option>
 </select>
 
 videos </p>
@@ -17,14 +17,11 @@ videos </p>
 <div id="serious-list"><p>Here are the videos in which Mike communicates the incredible pathos in his soul</p>
 <div id="dance-list"><p>Mike's innate sense of rhythm has wowed multitudes</p></div>
 
-<p id="js-test"></p>
-
 <script>
 function showAppropriateCategory() {
 
 	var e = document.getElementById("genres");
 	var genrechoice = e.options[e.selectedIndex].value;
-	alert ( genrechoice );
 
 // references to each div, not sure if there's a better way
 	var divcomedy = document.getElementById("comedy-list");
