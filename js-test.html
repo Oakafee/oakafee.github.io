@@ -21,7 +21,9 @@ videos </p>
 
 <script>
 function showAppropriateCategory() {
-	var s = "sexy"
-	alert ( s );
+
+	var e = document.getElementById("genres");
+	var genrechoice = e.options[e.selectedIndex].value;
+	alert ( genrechoice );
 }
 </script>
