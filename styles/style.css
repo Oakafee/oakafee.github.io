@@ -139,7 +139,7 @@ div.post-index-container {
     text-align: center;
     width: 30%;
     min-width: 200px;
-    margin: 25px;
+    margin: 0;
 }
 div.index-item {
 	display: inline-block;
