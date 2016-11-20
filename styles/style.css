@@ -61,6 +61,18 @@ div.headline-bar {
 	text-align: left;
 	font-family: Arial, Helvetica, sans-serif;
 }
+div.content-container {
+	width: 100%
+}
+div.left-content {
+	display: inline-block;
+	width: 80%;
+}
+div.right-content-nav {
+	display: inline-block;
+	width: 20%;
+	min-width: 200px;
+}
 p, ul {
         font-family: Georgia, Times New Roman, Garamond, serif;
 	line-height: 120%
