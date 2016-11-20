@@ -130,7 +130,12 @@ td {
 }
 
 div.index-container {
-    float: right;
+    text-align: center;
+    width: 100%;
+    margin: 25px 0 25px 0;
+}
+div.post-index-container {
+	float: right;
     text-align: center;
     width: 30%;
     min-width: 200px;
