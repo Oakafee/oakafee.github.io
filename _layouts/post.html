@@ -1,26 +1,6 @@
 ---
-layout: default
+layout: page
 ---
-
-<div class="article">
-  <div class="navigation">
-    {% for category in page.categories %}
-      <div class="navigation-text"> {{ category }} -> </div>
-    {% endfor %}
-  </div>
-  
-  <div class="headline-container">
-    <div style="text-align: center"><h1>{{ page.title }}</h1></div><br />
-    {% if page.subtitle %}
-      <h2>{{page.subtitle}}</h2><br /><br />
-    {% endif %}
-    
-    {% if page.author %}
-      <i>By {{page.author}}</i><br />
-    {% endif %}
-    
-    <div class="headline-bar"></div>
-  </div>
 
 	<div class="index-container">
 	  {% for post in site.categories.[page.category-name] %}
@@ -32,7 +12,6 @@ layout: default
 	  {% endfor %}
 	</div>  
 
-  
 
 {{ content }}
 <!-- Old index, CSS is still  there 
@@ -48,5 +27,3 @@ layout: default
 -->
 
 <!-- I'm using "category-name" [page.category-name] on each page/post to indicate the name of that page's category. Maybe there's a better solution, but I can't think of it right now --->
-
-</div>
