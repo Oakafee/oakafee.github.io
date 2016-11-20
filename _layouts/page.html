@@ -1,0 +1,29 @@
+---
+layout: default
+---
+
+<div class="article">
+  <div class="navigation">
+    {% for category in page.categories %}
+      <div class="navigation-text"> {{ category }} -> </div>
+    {% endfor %}
+  </div>
+  
+  <div class="headline-container">
+    <div style="text-align: center"><h1>{{ page.title }}</h1></div><br />
+    {% if page.subtitle %}
+      <h2>{{page.subtitle}}</h2><br /><br />
+    {% endif %}
+    
+    {% if page.author %}
+      <i>By {{page.author}}</i><br />
+    {% endif %}
+    
+    <div class="headline-bar"></div>
+  </div>
+  
+
+{{ content }}
+
+
+</div>
