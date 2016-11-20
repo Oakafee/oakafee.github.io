@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: The Land
 subtitle: Beauty That Surrounds Us
 tags: land
@@ -49,3 +49,12 @@ tags: land
     </table>
   </div>
 
+	<div class="index-container">
+	  {% for post in site.categories.[page.category-name] %}
+	    {% if post.url %}
+	      <div class="index-item">
+	        <a href="{{ post.url }}">{{ post.title }}</a>
+	  		</div>
+	    {% endif %}
+	  {% endfor %}
+	</div>  
