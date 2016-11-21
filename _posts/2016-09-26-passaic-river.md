@@ -12,7 +12,7 @@ The Passaic is the major river of Northeastern NJ. Its historical importance to 
 
 It flows in a very complicated shape from the Highlands, around the Watchung Mountains, and into Newark Bay:
 
-<img id="passaic-river" src="{{ site.baseurl }}/images/passaic-river.jpg" width="100%" alt="Passaic River" />
+<img id="passaic-river" src="{{ site.baseurl }}/images/passaic-river.jpg" width="100%" alt="Passaic River" style="display:block;"/>
 
 <img id="passaic-river-humanity" src="{{ site.baseurl }}/images/passaic-river-humanity.jpg" width="100%" alt="Passaic River" style="display: none;" />
 
