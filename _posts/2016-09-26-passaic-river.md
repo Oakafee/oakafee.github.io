@@ -41,9 +41,9 @@ Well, what can I even say?
 
 <script>
 function toggleHumanity() {
-	var buttonstate = document.getElementById("humanity-button").innerHtml;
-	var whatever = "whatever";
-	alert(buttonstate + " whatever " + " test");
+	var buttonstate = document.getElementById("humanity-button").innerHTML;
+	var whatever = "hahaha";
+	alert(buttonstate + whatever + " test");
 	document.getElementById("humanity-button").innerHTML = "Hide Humanity on Map";
 }
 </script>
