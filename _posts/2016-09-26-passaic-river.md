@@ -12,7 +12,12 @@ The Passaic is the major river of Northeastern NJ. Its historical importance to 
 
 It flows in a very complicated shape from the Highlands, around the Watchung Mountains, and into Newark Bay:
 
-<img src="{{ site.baseurl }}/images/passaic-river.jpg" width="100%" alt="Passaic River" />
+<div class="index-item" id="humanity-button" onclick="toggleHumanity()">Show Humanity on Map </div>
+
+<img id="passaic-river" src="{{ site.baseurl }}/images/passaic-river.jpg" width="100%" alt="Passaic River" />
+
+<img id="passaic-river-humanity" src="{{ site.baseurl }}/images/passaic-river-humanity.jpg" width="100%" alt="Passaic River" />
+
 
 The extensive wetlands (shown in dark green) that surround the Passaic River upstream of its waterfalls at Paterson and Little Falls are a very rich ecosystem. They are a patchwork of different ecological communities including marshes, open grassy meadows, extensive swampy bottomland forests dominated by black gum, pin oak, and silver maple, and isolated bits of lush upland forest of beech, red maple, red oak and other local species. Birdwatching in these areas is amazing. When I was younger I used to love seeing the turtles at the Great Swamp National Wildlife Refuge.
 
@@ -33,4 +38,10 @@ The lower tributaries are smaller, suburban streams which I know less about: Ber
 <h2>Great Falls</h2>
 
 Well, what can I even say? 
+
+<script>
+function toggleHumanity() {
+	document.getElementById("humanity-button").innerHTML = "Hide Humanity on Map";
+}
+</script>
 
