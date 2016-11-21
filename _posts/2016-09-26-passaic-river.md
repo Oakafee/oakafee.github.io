@@ -16,7 +16,7 @@ It flows in a very complicated shape from the Highlands, around the Watchung Mou
 
 <img id="passaic-river" src="{{ site.baseurl }}/images/passaic-river.jpg" width="100%" alt="Passaic River" />
 
-<img id="passaic-river-humanity" src="{{ site.baseurl }}/images/passaic-river-humanity.jpg" width="100%" alt="Passaic River" />
+<img id="passaic-river-humanity" src="{{ site.baseurl }}/images/passaic-river-humanity.jpg" width="100%" alt="Passaic River" style="display: none;" />
 
 
 The extensive wetlands (shown in dark green) that surround the Passaic River upstream of its waterfalls at Paterson and Little Falls are a very rich ecosystem. They are a patchwork of different ecological communities including marshes, open grassy meadows, extensive swampy bottomland forests dominated by black gum, pin oak, and silver maple, and isolated bits of lush upland forest of beech, red maple, red oak and other local species. Birdwatching in these areas is amazing. When I was younger I used to love seeing the turtles at the Great Swamp National Wildlife Refuge.
@@ -42,9 +42,20 @@ Well, what can I even say?
 <script>
 function toggleHumanity() {
 	var buttonstate = document.getElementById("humanity-button").innerHTML;
-	var whatever = "hahaha";
-	alert(buttonstate + whatever + " test");
-	document.getElementById("humanity-button").innerHTML = "Hide Humanity on Map";
+	var passaic = document.getElementById("passaic-river");
+	var passaichumanity = document.getElementById("passaic-river-humanity");
+	
+	if (buttonstate == "Show Humanity on Map") {
+		document.getElementById("humanity-button").innerHTML = "Hide Humanity on Map";
+		passaic.style.display = "none";
+		passaichumanity.style.display = "block";
+	}
+	else {
+		document.getElementById("humanity-button").innerHTML = "Show Humanity on Map";
+		passaic.style.display = "block";
+		passaichumanity.style.display = "none";
+		
+	}
 }
 </script>
 
