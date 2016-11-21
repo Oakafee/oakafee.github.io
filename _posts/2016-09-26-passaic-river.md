@@ -49,11 +49,16 @@ function toggleHumanity() {
 		passaic.style.display = "none";
 		passaichumanity.style.display = "block";
 	}
-	else {
+	else if (buttonstate == "Hide Humanity on Map") {
 		document.getElementById("humanity-button").innerHTML = "Show Humanity on Map";
 		passaic.style.display = "block";
 		passaichumanity.style.display = "none";
 		
+	}
+	else {
+		document.getElementById("humanity-button").innerHTML = "Hide Humanity on Map";
+		passaic.style.display = "none";
+		passaichumanity.style.display = "block";	
 	}
 }
 </script>
