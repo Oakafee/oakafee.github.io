@@ -42,7 +42,8 @@ Well, what can I even say?
 <script>
 function toggleHumanity() {
 	var buttonstate = document.getElementById("humanity-button").innerHtml;
-	alert(buttonstate + "test");
+	var whatever = "whatever";
+	alert(buttonstate + " whatever " + " test");
 	document.getElementById("humanity-button").innerHTML = "Hide Humanity on Map";
 }
 </script>
