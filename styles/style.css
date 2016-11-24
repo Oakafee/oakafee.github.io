@@ -197,8 +197,9 @@ p.key-title {
      font-size: 16pt;
 }
 div.heading-container {
-        width: 80%;
+        width: 70%;
 	margin: 0 auto;
+	margin-top: 50px;
 	text-align: left;
 	font-family: Georgia, Times New Roman, Garamond, serif;
 }
@@ -208,10 +209,12 @@ h1.heading {
         font-family: Georgia, Times New Roman, Garamond, serif;
 }
 div.state-seal {
+	margin: 50px 0 50px 0;
 }
 img.seal {
         width: 30%;
-	float: left
+	float: left;
+	margin: 0 50px 0 0;
 }
 div.intro-text-area {
         text-align:left;
