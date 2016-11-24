@@ -199,11 +199,8 @@ p.key-title {
 div.heading-container {
         width: 80%;
 	margin: 0 auto;
-	text-align: left;
+	text-align: center;
 	font-family: Georgia, Times New Roman, Garamond, serif;
-}
-div.heading {
-        width: 80%;
 }
 h1.heading {
         text-align:center;
