@@ -17,11 +17,12 @@ a {
         background-color: #4d4d4d;
         color: #F0DC82;
 	display: inline-block;
+	text-align: center;
 }
 div.menu-item {
         width: 10%;
         min-width: 100px;
-        float: left;
+  	display: inline-block;
         background-color: #4d4d4d;
         margin: 0 25px 0 25px;
 }
