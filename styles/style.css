@@ -208,8 +208,8 @@ h1.heading {
         font-family: Georgia, Times New Roman, Garamond, serif;
 }
 div.state-seal {
-        width:33%;
-	display: inline-block;
+        width:30%;
+	float: left;
 }
 img.seal {
         max-width:100%;
@@ -218,8 +218,8 @@ img.seal {
 div.intro-text-area {
         text-align:left;
         font-family: Georgia, Times New Roman, Garamond, serif;
-        width:66%;
-	display: inline-block;
+        width:60%;
+	float: left;
 }
 p.intro-text {
         font-weight:bold;
