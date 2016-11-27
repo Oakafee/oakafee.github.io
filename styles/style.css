@@ -26,7 +26,7 @@ div.menu-item {
         background-color: #4d4d4d;
         margin: 0 25px 0 25px;
 }
-a.menu-text {
+div.menu-item a {
         color: #c0c0c0;
         font-weight: normal;
 }
