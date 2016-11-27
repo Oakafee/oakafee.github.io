@@ -24,7 +24,7 @@
 <div id="container">
 <!---- Menu ----->
   <div id="menu-container">
-    <div class="menu-item" id="inj" onmouseover="highlightItem()" onmouseout="unhighlightItem( 'inj' )" style="background-color:#4d4d4d;"><p><a href="{{ site.baseurl }}"><img src="{{ site.url }}/images/liberty-cap.jpg" height="12px" alt="liberty cap" /></a>&nbsp;&nbsp;<a class="menu-text" href="index.html">INJ</a></p></div>
+    <div class="menu-item" id="inj" onmouseover="highlightItem( 'inj' )" onmouseout="unhighlightItem( 'inj' )" style="background-color:#4d4d4d;"><p><a href="{{ site.baseurl }}"><img src="{{ site.url }}/images/liberty-cap.jpg" height="12px" alt="liberty cap" /></a>&nbsp;&nbsp;<a class="menu-text" href="index.html">INJ</a></p></div>
     <div class="menu-item" id="land" onmouseover="highlightItem( 'land' )" onmouseout="unhighlightItem( 'land' )"><p><a href="{{ site.baseurl }}/land.html">Land</a></p></div>
     <div class="menu-item" id="people" onmouseover="highlightItem( 'people' )" onmouseout="unhighlightItem( 'people' )"><p> <a href="{{ site.baseurl }}/people.html">People</a></p></div>
     <div class="menu-item" id="land-use" onmouseover="highlightItem( 'land-use' )" onmouseout="unhighlightItem( 'land-use' )"><p> <a href="{{ site.baseurl }}/land-use.html">Land Use</a></p></div>
@@ -38,12 +38,12 @@
 <script>
 function highlightItem(id) {
 	console.log( "itemname:" + " " + id );
-	item = document.getElementById(id);
+	var item = document.getElementById(id);
 	item.style.background-color = "white";
 }
 function unhighlightItem (id) {
 	console.log( "howareyou" );
-	item = document.getElementById(id);
+	var item = document.getElementById(id);
 	item.style.background-color = "#4d4d4d";
 }
 
