@@ -26,9 +26,10 @@ div.menu-item {
         background-color: #4d4d4d;
         margin: 0 25px 0 25px;
 }
-div.menu-item a {
+div.menu-item p {
         color: #c0c0c0;
         font-weight: normal;
+        text-decoration: underline;
 }
 div.article {
         width: 60%;
