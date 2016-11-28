@@ -212,7 +212,9 @@ div.state-seal {
 	margin: 50px 0 50px 0;
 }
 img.seal {
-	height: 100%;
+	width: 30%;
+	min-width: 100px;
+	max-height: 70%;
 	float: left;
 	margin: 0 50px 50px 0;
 }
