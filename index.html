@@ -19,7 +19,7 @@ title: Interpretation of NJ
 
 <!---- Articles ---->
 
-<div class="story-container" id="land-story" onmouseover="highlightStory('land')" onmouseout="unhighlightStory('land')">
+<div class="story-container" id="land-story" onmouseover="highlightStory('land-story')" onmouseout="unhighlightStory('land-story')">
 <a class="story" href="land.html"><span class="story-link"></span></a>
   <div class="story-content">
     <div class="story-image">
@@ -54,13 +54,13 @@ title: Interpretation of NJ
 <script>
 function highlightStory(id) {
 	if (id == "land-story" ) {
-		document.getElementById( id ).style.backgroundColor = "white";
+		document.getElementById( id ).style.backgroundColor = "#6b6b6b";
 	}
 	else if (id == "people-story" ) {
-		document.getElementById( id ).style.backgroundColor = "red";
+		document.getElementById( id ).style.backgroundColor = "#404040";
 	}
 	else if (id == "land-use-story" ) {
-		document.getElementById( id ).style.backgroundColor = "blue";
+		document.getElementById( id ).style.backgroundColor = "#4d4d4d";
 	}
 	else {
 		alert(  "oops." )
