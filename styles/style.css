@@ -205,9 +205,9 @@ div.heading-container {
 	font-family: Georgia, Times New Roman, Garamond, serif;
 }
 h1.heading {
-        text-align:center;
         font-size:56px;
         font-family: Georgia, Times New Roman, Garamond, serif;
+        word-wrap: break-word;
 }
 div.state-seal {
 	margin: 50px 0 50px 0;
@@ -232,8 +232,17 @@ p.intro-text {
 }
 div.story-container {
         width:100%;
-        background-color:#4d4d4d;
         float: left;
+        padding: 50px;
+}
+#land-story {
+		background-color:#4d4d4d;
+}
+#people-story {
+		background-color:#2e2e2e;
+}
+#land-use-story {
+		background-color:#171717;
 }
 div.story-content {
 	width: 80%;
