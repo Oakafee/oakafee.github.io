@@ -228,9 +228,18 @@ p.intro-text {
         line-height:140%;
 }
 div.story-container {
-        width:100%;
+		position: relative;
+        width: 100%;
         display: inline-block;
         padding: 50px 0 50px 0;
+}
+span.story-link {
+		position: absolute;
+		top: 0;
+		left; 0;
+		width: 100%;
+		height: 100%;
+		z-index: 1;
 }
 #land-story {
 		background-color:#4d4d4d;
