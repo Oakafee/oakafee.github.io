@@ -271,6 +271,12 @@ h2.story-heading {
         letter-spacing: 2px;
         display: block;
 }
+a.story {
+        color: #F0DC82;
+        font-weight: bold;
+/*        position: relative; */
+/*        z-index: 2; */
+}
 div.footer {
         padding: 25px;
         width: calc(100% - 50px);
