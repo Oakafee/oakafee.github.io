@@ -214,16 +214,13 @@ div.state-seal {
 	text-align: center;
 }
 img.seal {
-	width: 30%;
-	min-width: 200px;
+	width: 200px;
 	float: left;
 	margin: 0 50px 50px 0;
 }
 div.intro-text-area {
         text-align:left;
         font-family: Georgia, Times New Roman, Garamond, serif;
-        width:60%;
-	float: left;
 }
 p.intro-text {
         font-weight:bold;
