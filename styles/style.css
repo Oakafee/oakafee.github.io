@@ -263,8 +263,6 @@ div.story-image {
         margin: 0 40px 20px 0;
 }
 div.story-text {
-		position: relative;
-		z-index: 2;
 }
 h2.story-heading {
         font-size: 28pt;
@@ -276,6 +274,8 @@ h2.story-heading {
 a.story {
         color: #F0DC82;
         font-weight: bold;
+        position: relative;
+        z-index: 2;
 }
 div.footer {
         padding: 25px;
