@@ -200,8 +200,8 @@ p.key-title {
 div.heading-container {
         width: 70%;
 	margin: 0 auto;
-	margin-top: 50px;
-	text-align: left;
+	margin-top: 60px;
+	text-align: center;
 	font-family: Georgia, Times New Roman, Garamond, serif;
 }
 h1.heading {
@@ -210,13 +210,13 @@ h1.heading {
         word-wrap: break-word;
 }
 div.state-seal {
-	margin: 50px 0 50px 0;
+	margin: 60px 0 50px 0;
 	text-align: center;
 }
 img.seal {
 	width: 200px;
 	float: left;
-	margin: 0 50px 50px 0;
+	margin: -30px 50px 50px 0;
 }
 div.intro-text-area {
         text-align:left;
