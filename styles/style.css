@@ -232,7 +232,7 @@ p.intro-text {
 }
 div.story-container {
         width:100%;
-        float: left;
+        display: inline-block;
         padding: 50px 0 50px 0;
 }
 #land-story {
@@ -269,9 +269,14 @@ a.story {
         color: #F0DC82;
         font-weight: bold;
 }
-div.bottom-text{
-        margin: 25px 25px 25px 25px;
-        width: 90%;
+div.footer {
+        padding: 25px;
+        width: 80%;
+ 		background-color:#4d4d4d;
+}
+div.footer a {
+        color: #F0DC82;
+        font-weight: bold;
 }
 div.land {
 	width: 85%;
