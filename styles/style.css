@@ -270,8 +270,8 @@ a.story {
         font-weight: bold;
 }
 div.footer {
-        margin: 25px;
-        width: 100%;
+        padding: 25px;
+        width: calc(100% - 50px);
  		background-color:#4d4d4d;
 }
 div.footer p {
