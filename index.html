@@ -19,7 +19,7 @@ title: Interpretation of NJ
 
 <!---- Articles ---->
 
-<div class="story-container" id="land-story">
+<div class="story-container" id="land-story" onmouseover="highlightStory('land')" onmouseout="unhighlightStory('land')">
 <a class="story" href="land.html"><span class="story-link"></span></a>
   <div class="story-content">
     <div class="story-image">
@@ -27,19 +27,22 @@ title: Interpretation of NJ
     <div class="story-text"><h2 class="story-heading">The Land</h2><p>Naturalist commentary on the state's physiographic, geological, and ecological aspects, with emphasis on the influence natural features have had on NJ's economy, history, and culture. All for the sake of the appreciation and understanding of this much-used, much-abused area of the earth. </p> <p>We divide NJ into the <a class="story" href="/land/valley-and-ridge.html">Appalachian Ridge and Valley provence</a>, the <a class="story" href="/land/highlands.html">Highlands</a>, the <a class="story" href="/land/piedmont.html">Pidemont</a> (including the Watchung Mountains and Palisades), and the <a class="story" href="/land/coastal-plain.html">Coastal Plain</a>. See a map of all of them <a class="story" href="land.html">here</a>.</p>
     </div>
   </div>
-
 </div>
-<div class="story-container" id="people-story">
+
+<div class="story-container" id="people-story" onmouseover="highlightStory( 'people-story' )" onmouseout="unhighlightStory( 'people-story' )">
+<a class="story" href="people.html"><span class="story-link"></span></a>
   <div class="story-content">
     <div class="story-image"><img src="images/shaq-home-page.jpg" width="300px" alt="land" /></div>
-    <div class="story-text"><a class="story" href="people.html"><h2 class="story-heading">The People</h2></a><p>Sketches of the society, politics, and culture of this enigmatic land. I hope to be able to say that this section contains a great diversity of perspectivese, so please <a class="story" href="submit.html">contribute</a>! </p>
+    <div class="story-text"><h2 class="story-heading">The People</h2><p>Sketches of the society, politics, and culture of this enigmatic land. I hope to be able to say that this section contains a great diversity of perspectivese, so please <a class="story" href="submit.html">contribute</a>! </p>
     </div>
   </div>
 </div>
-<div class="story-container" id="land-use-story">
+
+<div class="story-container" id="land-use-story" onmouseover="highlightStory( 'land-use-story' )" onmouseout="unhighlightStory( 'land-use-story' )">
+<a class="story" href="land-use.html"><span class="story-link"></span></a>
   <div class="story-content">
     <div class="story-image"><img src="images/land-use-home-page.jpg" width="300px" alt="land" /></div>
-    <div class="story-text"><a class="story" href="land-use.html"><h2 class="story-heading">The Crazy Things People Have Done to the Land</h2></a><p> Land use, infrastructure, development and its aftermath. This would include cities and towns, as well as other political divisions of land. We divide the state into its <a class="story" href="/land-use/urban-core.html">urban core</a>, extensive <a class="story" href="/land-use/suburbs.html">suburbs</a>, and <a class="story" href="/land-use/outlying-areas.html">outlying areas</a> beyond the metropolis.</p>
+    <div class="story-text"><h2 class="story-heading">The Crazy Things People Have Done to the Land</h2><p> Land use, infrastructure, development and its aftermath. This would include cities and towns, as well as other political divisions of land. We divide the state into its <a class="story" href="/land-use/urban-core.html">urban core</a>, extensive <a class="story" href="/land-use/suburbs.html">suburbs</a>, and <a class="story" href="/land-use/outlying-areas.html">outlying areas</a> beyond the metropolis.</p>
     </div>
   </div>
 </div>
@@ -47,3 +50,34 @@ title: Interpretation of NJ
 <div class="footer">
   <p>If you have any sense of NJ at all, whether as a resident, a visitor, or even just someone who has heard vague rumors about any part or aspect of the state, I would like to hear from you. <a class="story" href="submit.html">Please contribute here</a>. </p>
 </div>
+
+<script>
+function highlightStory(id) {
+	if (id == "land-story" ) {
+		document.getElementById( id ).style.backgroundColor = "white";
+	}
+	else if (id == "people-story" ) {
+		document.getElementById( id ).style.backgroundColor = "red";
+	}
+	else if (id == "land-use-story" ) {
+		document.getElementById( id ).style.backgroundColor = "blue";
+	}
+	else {
+		alert(  "oops." )
+	}
+}
+function unhighlightStory(id) {
+	if (id == "land-story" ) {
+		document.getElementById( id ).style.backgroundColor = "#4d4d4d";
+	}
+	else if (id == "people-story" ) {
+		document.getElementById( id ).style.backgroundColor = "#2e2e2e";
+	}
+	else if (id == "land-use-story" ) {
+		document.getElementById( id ).style.backgroundColor = "#171717";
+	}
+	else {
+		alert(  "oops." )
+	}
+}
+</script>
