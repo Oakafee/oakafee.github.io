@@ -233,7 +233,7 @@ p.intro-text {
 div.story-container {
         width:100%;
         float: left;
-        padding-top: 50px;
+        padding: 50px 0 50px 0;
 }
 #land-story {
 		background-color:#4d4d4d;
@@ -254,7 +254,7 @@ div.story-content {
 }
 div.story-image {
         float: left;
-        margin: 0 40px 40px 0;
+        margin: 0 40px 0 0;
 }
 div.story-text {
 }
