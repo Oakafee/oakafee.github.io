@@ -260,9 +260,10 @@ div.story-content {
 }
 div.story-image {
         float: left;
-        margin: 0 40px 0 0;
+        margin: 0 40px 20px 0;
 }
 div.story-text {
+		z-index: 2;
 }
 h2.story-heading {
         font-size: 28pt;
