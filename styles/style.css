@@ -271,8 +271,10 @@ a.story {
 }
 div.footer {
         padding: 25px;
-        width: 80%;
+        width: 100%;
  		background-color:#4d4d4d;
+}
+div.footer p {
         color: #d3d3d3;
 }
 div.footer a {
