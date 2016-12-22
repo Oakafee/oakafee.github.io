@@ -1,16 +1,15 @@
 ---
 layout: post
-title: West Orange
+title: East Orange
 author: Jesse Fried
 categories:
   - suburbs
-category-name: west-orange
+  - cities
+category-name: east-orange
 ---
 
-The township of West Orange ties together a broad swath of Essex County. It stretches from the edge of the dense, urbanized portion of the county to some areas which could even be considered exurban. West Orange feels a bit lost because it lacks a downtown or a train station. Instead it has several semi-depressing commercial areas (one around Northfield Ave and Valley Road, another near the high school on Pleasant Valley Way) and the cavernous Essex Green Shopping Center - not quite a typical NJ mall, but rather an elaborate multi-tiered hilltop variant on the strip mall.
+East Orange sits right in the middle of Essex County, between the City of Newark to the south and east, the suburbs of Glen Ridge and Bloomfield to the north, and the small "city" of Orange to the west. In terms of residential development, it is in a transitional zone between urban and suburban. It has everything from nice suburban neighborhoods to big high-rise apartment buildings, to old urban houses in poor states of repair - what I would call "Urban/Suburban" on my <a href="{{ site.baseurl }}/land-use.html" >land use map</a>.
 
-Since most of the town lies west of the Watchung Mountains and lacks a train line, its development was delayed compared to many of the surrounding towns. The construction of Interstate 280, which cuts deeply and dramatically into the hard bassalt bedrock as it ascends the steep eastern slope of the first Watchung Mountain, was an impetus for development in the area. Most of the housing is post-War, and in fact within my lifetime, a large tract of woods, just north of the Mayapple Hill section of the South Mountain Reservation (a gem of the Essex County park system) was turned into endless condos in my lifetime. That may have been the last substantial tract of privately held undeveloped land in Essex County.
+Socially, too, East Orange reflects this urban/subrban transition. According to a resident I spoke to recently, the town is divided such that north of Park Ave., closer to the suburbs, are relatively nice, middle class neighborhoods, while south of Park Ave. are poorer neighborhoods facing similar difficulties to some parts of nearby Newark and Irvington. Apparently, until recently there were two high schools - one pretty good school in the northern part of town and another struggling with violence and other urban high school type problems in the southenr part. They recently combined on the campus of the now defunct Upsala College.
 
-West Orange is a real Jewish-American mecca. It is home to the spectacularly ugly JCC Metrowest complex, the Oscar Schindler Performing Arts Center, numerous synagogues, and various other Jewish cultural institutions. Since the destruction of the Temple, have the descendents of the ancient Israelites ever felt so secure, so comfortable, so organically connected to a place as they do in West Orange, and similarly situated towns throughout NJ?
-
-My grandparents lived in a condo in the Eagle Ridge development, at the very top of the ridge. Their unit was at the eastern edge of the property, and behind it was a small open field directly bordering the sheer cliff of Interstate 280's deep cut. The view from here of urban NJ and the New York skyline was unparalleled. Nearby on the ridge were many radio transmission towers, with blinking lights that always fascinated me as a kid. It is the nearby western view, however, from Prospect St as it passes the Essex Green Shopping Center, that inspired me the most with a mystical feeling of connection to this suburban area. I like to imagine that some visitors to Jerusalem have a similar experience. 
+NJ Transit's Morris and Essex line has two stations there: East Orange and Brick Church. Interstate 280 runs through the town, right alongside the train line. Aa
