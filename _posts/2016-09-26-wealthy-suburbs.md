@@ -3,9 +3,9 @@ layout: post
 title: Wealthy Suburbs
 author: Jesse Fried
 categories:
-	- people
-	- culture
-	- suburbs
+  - people
+  - culture
+  - suburbs
 category-name: wealthy-suburbs
 ---
 
@@ -21,12 +21,12 @@ Another justification is a very depressing, empty kind of hedonism based on spen
 
 These people may have a lot of money but to a large extent they have been unable to buy their way out of the hustle.
 
-Public Schools
+##Public Schools
 
 One pretty solid reason to live in the wealthy suburbs is that they tend to have good public schools. 
 
 
-Innocence
+##Innocence
 
 I struggle with this. I try to take the perspective of "the people" and describe New Jersey in a way that is relatable to everyone, but really I've had some very important experience that most people don't have access to. The whole studying the Humanities at a leading liberal arts college thing, for instance, is in part what makes it possible for me to write with this tone. Also my life is colored by a feeling of detachment, and an awareness that the life choices I make don't really matter, because I always have something (however depressing) to fall back on.
 
